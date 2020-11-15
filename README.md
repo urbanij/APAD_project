@@ -6,14 +6,14 @@
 
 The aim of the project is to become comfortable with the Python tools studied in the lectures and improving your algorithmic skills. Because real world data requires small efforts even to start playing with them, we drive you in the task of tackling data about Covid19 with respect to our country, Italy. Let’s start: download the data available at https://github.com/pcm-dpc/COVID-19. In particular, clone the Git repository locally. 
 
-In a cell of Jupiter or in a script load the data as follows.
+In a cell of Jupiter or in a script load the data as follows:
 
+```python
 import json
 
 with open('dpc-covid19-ita-province.json') as f:
-
-         d = json.load(f) 
-
+    d = json.load(f) 
+```
 
 ### Building the graph of provinces and running some algorithms
 

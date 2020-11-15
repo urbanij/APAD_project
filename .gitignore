@@ -1,2 +1,7 @@
 venv/
 .ipynb_checkpoints/
+
+data/*_now*
+.DS_Store
+
+Pipfile

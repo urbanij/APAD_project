@@ -2,11 +2,12 @@ import random
 import numpy as np
 import pandas as pd
 import json
+import pathlib
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import networkx as nx
 
-with open('data\dpc-covid19-ita-province.json') as f:
+with open(pathlib.Path('data/dpc-covid19-ita-province.json')) as f:
     d = json.load(f)
 
 
